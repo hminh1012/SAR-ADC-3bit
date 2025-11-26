@@ -1,0 +1,41 @@
+LTspice 24.1.10 for Windows
+Circuit: C:\Users\Windows\Documents\GitHub\SAR-ADC-3bit\SAR_ADC_3Bit_full.net
+Start Time: Wed Nov 26 13:35:25 2025
+C:\Users\Windows\Documents\GitHub\SAR-ADC-3bit\SAR_ADC_3Bit_full.net(26): This A-device controls a switch device but has zero rise/fall time. Setting rise time to 1ns.
+A1 Comp 0 _P2 Pre2 N001 0 B2 0 DFLOP td=.5n
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\Windows\Documents\GitHub\SAR-ADC-3bit\SAR_ADC_3Bit_full.net(27): This A-device controls a switch device but has zero rise/fall time. Setting rise time to 1ns.
+A2 Comp 0 _P1 Pre1 N001 0 B1 0 DFLOP td=.5n
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\Windows\Documents\GitHub\SAR-ADC-3bit\SAR_ADC_3Bit_full.net(28): This A-device controls a switch device but has zero rise/fall time. Setting rise time to 1ns.
+A4 B2 0 RST 0 0 0 N002 0 DFLOP
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\Windows\Documents\GitHub\SAR-ADC-3bit\SAR_ADC_3Bit_full.net(29): This A-device controls a switch device but has zero rise/fall time. Setting rise time to 1ns.
+A5 B1 0 RST 0 0 0 N003 0 DFLOP
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\Windows\Documents\GitHub\SAR-ADC-3bit\SAR_ADC_3Bit_full.net(30): This A-device controls a switch device but has zero rise/fall time. Setting rise time to 1ns.
+A6 B0 0 RST 0 0 0 N004 0 DFLOP
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\Windows\Documents\GitHub\SAR-ADC-3bit\SAR_ADC_3Bit_full.net(75): This A-device controls a switch device but has zero rise/fall time. Setting rise time to 1ns.
+A4 _Qc0 _Qc1 0 N004 0 _RST RST 0 AND
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\Windows\Documents\GitHub\SAR-ADC-3bit\SAR_ADC_3Bit_full.net(43): This A-device controls a switch device but has zero rise/fall time. Setting rise time to 1ns.
+A3 Comp 0 _P0 Pre0 N001 0 B0 0 DFLOP td=.5n
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+solver = Normal
+Maximum thread count: 12
+tnom = 27
+temp = 27
+method = trap
+CompressRelTol = 2.5e-06
+C:\Users\Windows\Documents\GitHub\SAR-ADC-3bit\SAR_ADC_3Bit_full.net(22): Limiting fall time to 3.17637e-22.
+
+Vsawtooth NC_03 0 PULSE({VrefM} {VrefP} 0 {tr} 0 0 {tr})
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Direct Newton iteration for .op point succeeded.
+Total elapsed time: 0.472 seconds.
+
+Files loaded:
+C:\Users\Windows\Documents\GitHub\SAR-ADC-3bit\SAR_ADC_3Bit_full.net
+C:\Users\Windows\Documents\GitHub\SAR-ADC-3bit\MyComparator.sub
+
