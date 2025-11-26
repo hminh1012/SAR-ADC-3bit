@@ -34,3 +34,6 @@ The project consists of the following key components:
 
 <img width="1918" height="452" alt="image" src="https://github.com/user-attachments/assets/5186a806-ad36-4529-b72b-28e337c306d7" />
 
+
+<img width="975" height="226" alt="image" src="https://github.com/user-attachments/assets/e3122b25-be84-4523-97bf-f92fcc7064c5" />
+
